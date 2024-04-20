@@ -1,0 +1,24 @@
+.layout {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 12 columnas */
+    grid-template-rows: repeat(12, 1fr); /* 12 filas */
+    background-color: #FFA500;
+    height: 100vh;
+  }
+
+.logo-layout {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border-radius: 8px;
+  width: auto; /* Ancho del 15% del contenedor padre */
+  height: 12%; /* Altura automática para mantener la proporción */
+  max-width: 200px; /* Máximo de 200px de ancho */
+  max-height: 200px; /* Máximo de 200px de altura */
+}
+  
+.content {
+  grid-column: span 12; /* Ocupa las 12 columnas */
+  grid-row: span 12; /* Ocupa las 12 filas */
+}
+

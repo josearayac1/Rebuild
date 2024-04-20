@@ -1,0 +1,31 @@
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff7b00;
+  }
+
+  .btn-text {
+    width: fit-content;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin-top: 10px;
+    float: right;
+  }
+  .btn-text:hover {
+    color: #ff7b00;
+  }

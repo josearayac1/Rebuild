@@ -1,0 +1,14 @@
+/* ProfilePicture.css */
+.profile-picture-container {
+    width: 130px; /* Ancho deseado para el contenedor de la foto de perfil */
+    height: 140px; /* Altura deseada para el contenedor de la foto de perfil */
+    border-radius: 12px; /* Borde redondeado para crear una apariencia circular */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde del contenedor */
+    border: solid 2px #FFA500;
+}
+
+.profile-picture {
+    width: 100%; /* Asegura que la imagen llene todo el contenedor */
+    height: 100%; /* Asegura que la imagen llene todo el contenedor */
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor manteniendo la proporción */
+}
