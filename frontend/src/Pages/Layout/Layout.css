@@ -1,4 +1,5 @@
 .layout {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(12, 1fr); /* 12 columnas */
     grid-template-rows: repeat(12, 1fr); /* 12 filas */
@@ -12,7 +13,7 @@
   right: 25px;
   border-radius: 8px;
   width: auto; /* Ancho del 15% del contenedor padre */
-  height: 12%; /* Altura automática para mantener la proporción */
+  height: 15%; /* Altura automática para mantener la proporción */
   max-width: 200px; /* Máximo de 200px de ancho */
   max-height: 200px; /* Máximo de 200px de altura */
 }

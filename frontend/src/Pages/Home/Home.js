@@ -19,7 +19,7 @@ const HomePage = () => {
           <div className='content-wrapper'>
             <div className='container-left'>
               <form onSubmit={handleSubmit} className='form-search'>
-                <input className='input-search' type='text' placeholder='Buscar una inspección'/>
+                <input className='input-search' type='text' placeholder='Busca una inspección por comuna o proyecto'/>
                 <button className='button-search' type='submit'>Buscar</button>
               </form>  
             </div>

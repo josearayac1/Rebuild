@@ -1,10 +1,10 @@
 .content-wrapper {
     display: grid;
     grid-template-columns: 50% 40%; /* División de 60% y 40% del ancho */
-    grid-gap: 100px; /* Espacio entre los contenedores */
+    grid-gap: 4%; /* Espacio entre los contenedores */
     border-radius: 24px;
     background-color: #fff; /* Fondo blanco */
-    padding: 40px; /* Padding para separar del borde del content-wrapper */
+    padding: 4%; /* Padding para separar del borde del content-wrapper */
     margin: 40px; /* Márgenes */
     height: 85vh; /* Altura del 92% de la ventana del navegador */
     overflow: auto; /* Agregar desplazamiento si el contenido excede la altura */
@@ -13,7 +13,7 @@
 .container-left,
 .container-right {
     border-radius: 8px;
-    background-color: lightblue; /* Color de fondo para ambos contenedores */
+    background-color: #fae3b8; /* Color de fondo para ambos contenedores */
     padding: 25px; /* Padding para separar el contenido del borde */
   }
   
@@ -24,6 +24,7 @@
   }
   
 .container-right {
+    position: relative;
     grid-column: 2; /* Segunda columna */
     height: auto; /* Ocupa toda la altura del content-wrapper */
     padding: 85px;
@@ -39,8 +40,8 @@
     padding: 8px;
     border-radius: 8px;
     border: 3px solid #FFA500;
-    height: 40px;
-    font-size: 20px; /* Tamaño de fuente del placeholder */
+    height: 30px;
+    font-size: 11px; /* Tamaño de fuente del placeholder */
     text-align: center;
     margin-right: 10px; /* Separación del borde derecho */
     transition: border-color 0.3s, color 0.3s;
